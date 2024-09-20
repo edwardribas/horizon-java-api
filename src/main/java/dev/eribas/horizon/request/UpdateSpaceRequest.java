@@ -10,7 +10,10 @@ import lombok.Setter;
 @NoArgsConstructor
 public class UpdateSpaceRequest {
 
-    private @NonNull String id;
-    private @NonNull String name;
+    @NonNull
+    private String id;
+
+    @NonNull
+    private String name;
 
 }
