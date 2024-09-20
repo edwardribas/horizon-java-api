@@ -5,8 +5,8 @@ import io.swagger.v3.oas.annotations.info.Info;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
 @OpenAPIDefinition(info = @Info(title = "Horizon", version = "1", description = "My first Spring-boot API with Swagger."))
+@SpringBootApplication
 public class HorizonApplication {
 
 	public static void main(String[] args) {
